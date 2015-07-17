@@ -1,0 +1,28 @@
+a, a:visited {
+    color: #333;
+}
+a:hover {
+    color: #000;
+}
+
+
+.jumbotron {
+    background: #ffd156;
+}
+
+
+
+
+.post-list {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.post-list-post {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 15px;
+    font-size: 1.6em;
+}
+.post-list:last-child {
+    border-bottom: none;
+}
