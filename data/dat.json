@@ -78,6 +78,10 @@
         "coding": {
             "title": "Coding",
             "posts": {
+                "github": {
+                    "title": "Github!",
+                    "content": "Check out my activity on Github here: https://github.com/james-portman"
+                },
                 "axis-ip-camera-stream-viewer": {
                     "title": "Axis IP Camera stream viewer (Android app)",
                     "content": "This is the video version of my first Android app,\nyou can connect and watch Axis IP cameras over the internet or local network\n\nThe original version loaded still images from the camera rather than video\n\nAxis IP camera stream viewer Android app on the play store"

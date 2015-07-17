@@ -1,8 +1,5 @@
-// create the module and name it scotchApp
-        // also include ngRoute for all our routing needs
     var scotchApp = angular.module('scotchApp', ['ngRoute']);
 
-    // configure our routes
     scotchApp.config(function($locationProvider,$routeProvider) {
         $locationProvider.html5Mode(true);
         $routeProvider
