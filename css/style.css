@@ -1,3 +1,8 @@
+
+body {
+    background-color: #363F45;
+}
+
 a, a:visited {
     color: #333;
 }
@@ -6,8 +11,37 @@ a:hover {
 }
 
 
+.navbar {
+    background-color: #4B5F6D;
+    border-bottom: 1px solid #222;
+    box-shadow: 0 1px 0 #262626;
+    color: #fff;
+}
+
+.navbar a, .navbar a:visited {
+    color: #eee;
+}
+.navbar a:hover {
+    color: #ccc;
+}
+
+.navbar ul {
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+}
+
+h1.post-title {
+    background: #FFC26A;
+    border-radius: 6px;
+    padding: 30px;
+}
+
 .jumbotron {
-    background: #ffd156;
+    background: #FFC26A;
 }
 
 
@@ -16,6 +50,11 @@ a:hover {
 .post-list {
     border-radius: 5px;
     border: 1px solid #ccc;
+    background: #F1F1F1;
+}
+
+.post-list a {
+    color: #222;
 }
 
 .post-list-post {
