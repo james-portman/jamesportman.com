@@ -1,8 +1,0 @@
-<div class="jumbotron">
-	<h1 class="entry-title">Posts in {{ category.title }}</h1>
-</div>
-<!--<h1>{{ category.title }}</h1>-->
-
-<div class="post-list">
-    <div class="post-list-post" ng-repeat="(key,post) in category.posts"><a href="/{{ route_category }}/{{ key }}">{{ post.title }}</a></div>
-</div>
